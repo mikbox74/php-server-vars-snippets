@@ -1,0 +1,289 @@
+{
+	"$_SERVER['REMOTE_ADDR']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REMOTE_ADDR']$0"
+		],
+		"description": "REMOTE_ADDR"
+	},
+	"$_SERVER['PHP_SELF']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['PHP_SELF']$0"
+		],
+		"description": "PHP_SELF"
+	},
+	"$_SERVER['argc']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['argc']$0"
+		],
+		"description": "argc"
+	},
+	"$_SERVER['argv']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['argv']$0"
+		],
+		"description": "argv"
+	},
+	"$_SERVER['GATEWAY_INTERFACE']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['GATEWAY_INTERFACE']$0"
+		],
+		"description": "GATEWAY_INTERFACE"
+	},
+	"$_SERVER['SERVER_ADDR']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_ADDR']$0"
+		],
+		"description": "SERVER_ADDR"
+	},
+	"$_SERVER['SERVER_NAME']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_NAME']$0"
+		],
+		"description": "SERVER_NAME"
+	},
+	"$_SERVER['SERVER_SOFTWARE']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_SOFTWARE']$0"
+		],
+		"description": "SERVER_SOFTWARE"
+	},
+	"$_SERVER['SERVER_PROTOCOL']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_PROTOCOL']$0"
+		],
+		"description": "SERVER_PROTOCOL"
+	},
+	"$_SERVER['REQUEST_METHOD']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REQUEST_METHOD']$0"
+		],
+		"description": "REQUEST_METHOD"
+	},
+	"$_SERVER['REQUEST_TIME']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REQUEST_TIME']$0"
+		],
+		"description": "REQUEST_TIME"
+	},
+	"$_SERVER['REQUEST_TIME_FLOAT']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REQUEST_TIME_FLOAT']$0"
+		],
+		"description": "REQUEST_TIME_FLOAT"
+	},
+	"$_SERVER['QUERY_STRING']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['QUERY_STRING']$0"
+		],
+		"description": "QUERY_STRING"
+	},
+	"$_SERVER['DOCUMENT_ROOT']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['DOCUMENT_ROOT']$0"
+		],
+		"description": "DOCUMENT_ROOT"
+	},
+	"$_SERVER['HTTP_ACCEPT']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_ACCEPT']$0"
+		],
+		"description": "HTTP_ACCEPT"
+	},
+	"$_SERVER['HTTP_ACCEPT_CHARSET']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_ACCEPT_CHARSET']$0"
+		],
+		"description": "HTTP_ACCEPT_CHARSET"
+	},
+	"$_SERVER['HTTP_ACCEPT_ENCODING']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_ACCEPT_ENCODING']$0"
+		],
+		"description": "HTTP_ACCEPT_ENCODING"
+	},
+	"$_SERVER['HTTP_ACCEPT_LANGUAGE']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_ACCEPT_LANGUAGE']$0"
+		],
+		"description": "HTTP_ACCEPT_LANGUAGE"
+	},
+	"$_SERVER['HTTP_CONNECTION']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_CONNECTION']$0"
+		],
+		"description": "HTTP_CONNECTION"
+	},
+	"$_SERVER['HTTP_HOST']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_HOST']$0"
+		],
+		"description": "HTTP_HOST"
+	},
+	"$_SERVER['HTTP_REFERER']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_REFERER']$0"
+		],
+		"description": "HTTP_REFERER"
+	},
+	"$_SERVER['HTTP_USER_AGENT']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_USER_AGENT']$0"
+		],
+		"description": "HTTP_USER_AGENT"
+	},
+	"$_SERVER['HTTPS']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTPS']$0"
+		],
+		"description": "HTTPS"
+	},
+	"$_SERVER['REMOTE_HOST']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REMOTE_HOST']$0"
+		],
+		"description": "REMOTE_HOST"
+	},
+	"$_SERVER['REMOTE_PORT']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REMOTE_PORT']$0"
+		],
+		"description": "REMOTE_PORT"
+	},
+	"$_SERVER['REMOTE_USER']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REMOTE_USER']$0"
+		],
+		"description": "REMOTE_USER"
+	},
+	"$_SERVER['REDIRECT_REMOTE_USER']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REDIRECT_REMOTE_USER']$0"
+		],
+		"description": "REDIRECT_REMOTE_USER"
+	},
+	"$_SERVER['SCRIPT_FILENAME']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SCRIPT_FILENAME']$0"
+		],
+		"description": "SCRIPT_FILENAME"
+	},
+	"$_SERVER['SERVER_ADMIN']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_ADMIN']$0"
+		],
+		"description": "SERVER_ADMIN"
+	},
+	"$_SERVER['SERVER_SIGNATURE']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_SIGNATURE']$0"
+		],
+		"description": "SERVER_SIGNATURE"
+	},
+	"$_SERVER['PATH_TRANSLATED']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['PATH_TRANSLATED']$0"
+		],
+		"description": "PATH_TRANSLATED"
+	},
+	"$_SERVER['SCRIPT_NAME']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SCRIPT_NAME']$0"
+		],
+		"description": "SCRIPT_NAME"
+	},
+	"$_SERVER['REQUEST_URI']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['REQUEST_URI']$0"
+		],
+		"description": "REQUEST_URI"
+	},
+	"$_SERVER['PHP_AUTH_DIGEST']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['PHP_AUTH_DIGEST']$0"
+		],
+		"description": "PHP_AUTH_DIGEST"
+	},
+	"$_SERVER['PHP_AUTH_USER']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['PHP_AUTH_USER']$0"
+		],
+		"description": "PHP_AUTH_USER"
+	},
+	"$_SERVER['PHP_AUTH_PW']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['PHP_AUTH_PW']$0"
+		],
+		"description": "PHP_AUTH_PW"
+	},
+	"$_SERVER['AUTH_TYPE']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['AUTH_TYPE']$0"
+		],
+		"description": "AUTH_TYPE"
+	},
+	"$_SERVER['PATH_INFO']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['PATH_INFO']$0"
+		],
+		"description": "PATH_INFO"
+	},
+	"$_SERVER['ORIG_PATH_INFO']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['ORIG_PATH_INFO']$0"
+		],
+		"description": "ORIG_PATH_INFO"
+	},
+	"$_SERVER['HTTP_X_FORWARDED_FOR']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_X_FORWARDED_FOR']$0"
+		],
+		"description": "HTTP_X_FORWARDED_FOR"
+	},
+	"$_SERVER['HTTP_X_REQUESTED_WITH']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_X_REQUESTED_WITH']$0"
+		],
+		"description": "HTTP_X_REQUESTED_WITH"
+	}
+}
