@@ -3,8 +3,9 @@
     "displayName": "PHP $_SERVER vars snippets",
     "description": "Provides VS Code autocompletion for keys containing in $_SERVER superglobal array",
     "version": "0.0.1",
-    "publisher": "Michail Urakov",
+    "publisher": "MihailUrakov",
     "repository": "https://github.com/mikbox74/php-server-vars-snippets",
+    "icon": "https://github.com/mikbox74/php-server-vars-snippets/raw/master/elephant-6-128.png",
     "engines": {
         "vscode": "^1.42.0"
     },
