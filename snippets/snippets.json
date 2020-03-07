@@ -4,273 +4,280 @@
 		"body": [
 			"\\$_SERVER['REMOTE_ADDR']$0"
 		],
-		"description": "REMOTE_ADDR"
+		"description": "REMOTE_ADDR: The IP address from which the user is viewing the current page."
 	},
 	"$_SERVER['PHP_SELF']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['PHP_SELF']$0"
 		],
-		"description": "PHP_SELF"
+		"description": "PHP_SELF: The filename of the currently executing script, relative to the document root. For instance, $_SERVER['PHP_SELF'] in a script at the address http://example.com/foo/bar.php would be /foo/bar.php. The __FILE__ constant contains the full path and filename of the current (i.e. included) file. If PHP is running as a command-line processor this variable contains the script name since PHP 4.3.0. Previously it was not available."
 	},
 	"$_SERVER['argc']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['argc']$0"
 		],
-		"description": "argc"
+		"description": "argc: Contains the number of command line parameters passed to the script (if run on the command line)."
 	},
 	"$_SERVER['argv']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['argv']$0"
 		],
-		"description": "argv"
+		"description": "argv: Array of arguments passed to the script. When the script is run on the command line, this gives C-style access to the command line parameters. When called via the GET method, this will contain the query string."
 	},
 	"$_SERVER['GATEWAY_INTERFACE']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['GATEWAY_INTERFACE']$0"
 		],
-		"description": "GATEWAY_INTERFACE"
+		"description": "GATEWAY_INTERFACE: What revision of the CGI specification the server is using; e.g. 'CGI/1.1'."
 	},
 	"$_SERVER['SERVER_ADDR']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SERVER_ADDR']$0"
 		],
-		"description": "SERVER_ADDR"
+		"description": "SERVER_ADDR: The IP address of the server under which the current script is executing."
 	},
 	"$_SERVER['SERVER_NAME']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SERVER_NAME']$0"
 		],
-		"description": "SERVER_NAME"
+		"description": "SERVER_NAME: The name of the server host under which the current script is executing. If the script is running on a virtual host, this will be the value defined for that virtual host. Note: Under Apache 2, you must set UseCanonicalName = On and ServerName. Otherwise, this value reflects the hostname supplied by the client, which can be spoofed. It is not safe to rely on this value in security-dependent contexts."
 	},
 	"$_SERVER['SERVER_SOFTWARE']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SERVER_SOFTWARE']$0"
 		],
-		"description": "SERVER_SOFTWARE"
+		"description": "SERVER_SOFTWARE: Server identification string, given in the headers when responding to requests."
 	},
 	"$_SERVER['SERVER_PROTOCOL']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SERVER_PROTOCOL']$0"
 		],
-		"description": "SERVER_PROTOCOL"
+		"description": "SERVER_PROTOCOL: Name and revision of the information protocol via which the page was requested; e.g. 'HTTP/1.0';"
 	},
 	"$_SERVER['REQUEST_METHOD']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REQUEST_METHOD']$0"
 		],
-		"description": "REQUEST_METHOD"
+		"description": "REQUEST_METHOD: Which request method was used to access the page; e.g. 'GET', 'HEAD', 'POST', 'PUT'. Note: PHP script is terminated after sending headers (it means after producing any output without output buffering) if the request method was HEAD."
 	},
 	"$_SERVER['REQUEST_TIME']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REQUEST_TIME']$0"
 		],
-		"description": "REQUEST_TIME"
+		"description": "REQUEST_TIME: The timestamp of the start of the request. Available since PHP 5.1.0."
 	},
 	"$_SERVER['REQUEST_TIME_FLOAT']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REQUEST_TIME_FLOAT']$0"
 		],
-		"description": "REQUEST_TIME_FLOAT"
+		"description": "REQUEST_TIME_FLOAT: The timestamp of the start of the request, with microsecond precision. Available since PHP 5.4.0."
 	},
 	"$_SERVER['QUERY_STRING']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['QUERY_STRING']$0"
 		],
-		"description": "QUERY_STRING"
+		"description": "QUERY_STRING: The query string, if any, via which the page was accessed."
 	},
 	"$_SERVER['DOCUMENT_ROOT']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['DOCUMENT_ROOT']$0"
 		],
-		"description": "DOCUMENT_ROOT"
+		"description": "DOCUMENT_ROOT: The document root directory under which the current script is executing, as defined in the server's configuration file."
 	},
 	"$_SERVER['HTTP_ACCEPT']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_ACCEPT']$0"
 		],
-		"description": "HTTP_ACCEPT"
+		"description": "HTTP_ACCEPT: Contents of the Accept: header from the current request, if there is one."
 	},
 	"$_SERVER['HTTP_ACCEPT_CHARSET']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_ACCEPT_CHARSET']$0"
 		],
-		"description": "HTTP_ACCEPT_CHARSET"
+		"description": "HTTP_ACCEPT_CHARSET: Contents of the Accept-Charset: header from the current request, if there is one. Example: 'iso-8859-1,*,utf-8'."
 	},
 	"$_SERVER['HTTP_ACCEPT_ENCODING']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_ACCEPT_ENCODING']$0"
 		],
-		"description": "HTTP_ACCEPT_ENCODING"
+		"description": "HTTP_ACCEPT_ENCODING: Contents of the Accept-Encoding: header from the current request, if there is one. Example: 'gzip'."
 	},
 	"$_SERVER['HTTP_ACCEPT_LANGUAGE']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_ACCEPT_LANGUAGE']$0"
 		],
-		"description": "HTTP_ACCEPT_LANGUAGE"
+		"description": "HTTP_ACCEPT_LANGUAGE: Contents of the Accept-Language: header from the current request, if there is one. Example: 'en'."
 	},
 	"$_SERVER['HTTP_CONNECTION']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_CONNECTION']$0"
 		],
-		"description": "HTTP_CONNECTION"
+		"description": "HTTP_CONNECTION: Contents of the Connection: header from the current request, if there is one. Example: 'Keep-Alive'."
 	},
 	"$_SERVER['HTTP_HOST']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_HOST']$0"
 		],
-		"description": "HTTP_HOST"
+		"description": "HTTP_HOST: Contents of the Host: header from the current request, if there is one."
 	},
 	"$_SERVER['HTTP_REFERER']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_REFERER']$0"
 		],
-		"description": "HTTP_REFERER"
+		"description": "HTTP_REFERER: The address of the page (if any) which referred the user agent to the current page. This is set by the user agent. Not all user agents will set this, and some provide the ability to modify HTTP_REFERER as a feature. In short, it cannot really be trusted."
 	},
 	"$_SERVER['HTTP_USER_AGENT']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTP_USER_AGENT']$0"
 		],
-		"description": "HTTP_USER_AGENT"
+		"description": "HTTP_USER_AGENT: Contents of the User-Agent: header from the current request, if there is one. This is a string denoting the user agent being which is accessing the page. A typical example is: Mozilla/4.5 [en] (X11; U; Linux 2.2.9 i586). Among other things, you can use this value with get_browser() to tailor your page's output to the capabilities of the user agent."
 	},
 	"$_SERVER['HTTPS']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['HTTPS']$0"
 		],
-		"description": "HTTPS"
+		"description": "HTTPS: Set to a non-empty value if the script was queried through the HTTPS protocol. Note: Note that when using ISAPI with IIS, the value will be off if the request was not made through the HTTPS protocol."
 	},
 	"$_SERVER['REMOTE_HOST']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REMOTE_HOST']$0"
 		],
-		"description": "REMOTE_HOST"
+		"description": "REMOTE_HOST: The Host name from which the user is viewing the current page. The reverse dns lookup is based on the REMOTE_ADDR of the user. Note: Your web server must be configured to create this variable. For example in Apache you'll need HostnameLookups On inside httpd.conf for it to exist. See also gethostbyaddr()."
 	},
 	"$_SERVER['REMOTE_PORT']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REMOTE_PORT']$0"
 		],
-		"description": "REMOTE_PORT"
+		"description": "REMOTE_PORT: The port being used on the user's machine to communicate with the web server."
 	},
 	"$_SERVER['REMOTE_USER']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REMOTE_USER']$0"
 		],
-		"description": "REMOTE_USER"
+		"description": "REMOTE_USER: The authenticated user."
 	},
 	"$_SERVER['REDIRECT_REMOTE_USER']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REDIRECT_REMOTE_USER']$0"
 		],
-		"description": "REDIRECT_REMOTE_USER"
+		"description": "REDIRECT_REMOTE_USER: The authenticated user if the request is internally redirected."
 	},
 	"$_SERVER['SCRIPT_FILENAME']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SCRIPT_FILENAME']$0"
 		],
-		"description": "SCRIPT_FILENAME"
+		"description": "SCRIPT_FILENAME: The absolute pathname of the currently executing script. Note: If a script is executed with the CLI, as a relative path, such as file.php or ../file.php, $_SERVER['SCRIPT_FILENAME'] will contain the relative path specified by the user."
 	},
 	"$_SERVER['SERVER_ADMIN']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SERVER_ADMIN']$0"
 		],
-		"description": "SERVER_ADMIN"
+		"description": "SERVER_ADMIN: The value given to the SERVER_ADMIN (for Apache) directive in the web server configuration file. If the script is running on a virtual host, this will be the value defined for that virtual host."
+	},
+	"$_SERVER['SERVER_PORT']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['SERVER_PORT']$0"
+		],
+		"description": "SERVER_PORT: The port on the server machine being used by the web server for communication. For default setups, this will be '80'; using SSL, for instance, will change this to whatever your defined secure HTTP port is. Note: Under the Apache 2, you must set UseCanonicalName = On, as well as UseCanonicalPhysicalPort = On in order to get the physical (real) port, otherwise, this value can be spoofed and it may or may not return the physical port value. It is not safe to rely on this value in security-dependent contexts."
 	},
 	"$_SERVER['SERVER_SIGNATURE']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SERVER_SIGNATURE']$0"
 		],
-		"description": "SERVER_SIGNATURE"
+		"description": "SERVER_SIGNATURE: String containing the server version and virtual host name which are added to server-generated pages, if enabled."
 	},
 	"$_SERVER['PATH_TRANSLATED']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['PATH_TRANSLATED']$0"
 		],
-		"description": "PATH_TRANSLATED"
+		"description": "PATH_TRANSLATED: Filesystem- (not document root-) based path to the current script, after the server has done any virtual-to-real mapping. Note: As of PHP 4.3.2, PATH_TRANSLATED is no longer set implicitly under the Apache 2 SAPI in contrast to the situation in Apache 1, where it's set to the same value as the SCRIPT_FILENAME server variable when it's not populated by Apache. This change was made to comply with the CGI specification that PATH_TRANSLATED should only exist if PATH_INFO is defined. Apache 2 users may use AcceptPathInfo = On inside httpd.conf to define PATH_INFO."
 	},
 	"$_SERVER['SCRIPT_NAME']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['SCRIPT_NAME']$0"
 		],
-		"description": "SCRIPT_NAME"
+		"description": "SCRIPT_NAME: Contains the current script's path. This is useful for pages which need to point to themselves. The __FILE__ constant contains the full path and filename of the current (i.e. included) file."
 	},
 	"$_SERVER['REQUEST_URI']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['REQUEST_URI']$0"
 		],
-		"description": "REQUEST_URI"
+		"description": "REQUEST_URI: The URI which was given in order to access this page; for instance, '/index.html'."
 	},
 	"$_SERVER['PHP_AUTH_DIGEST']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['PHP_AUTH_DIGEST']$0"
 		],
-		"description": "PHP_AUTH_DIGEST"
+		"description": "PHP_AUTH_DIGEST: When doing Digest HTTP authentication this variable is set to the 'Authorization' header sent by the client (which you should then use to make the appropriate validation)."
 	},
 	"$_SERVER['PHP_AUTH_USER']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['PHP_AUTH_USER']$0"
 		],
-		"description": "PHP_AUTH_USER"
+		"description": "PHP_AUTH_USER: When doing HTTP authentication this variable is set to the username provided by the user."
 	},
 	"$_SERVER['PHP_AUTH_PW']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['PHP_AUTH_PW']$0"
 		],
-		"description": "PHP_AUTH_PW"
+		"description": "PHP_AUTH_PW: When doing HTTP authentication this variable is set to the password provided by the user."
 	},
 	"$_SERVER['AUTH_TYPE']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['AUTH_TYPE']$0"
 		],
-		"description": "AUTH_TYPE"
+		"description": "AUTH_TYPE: When doing HTTP authentication this variable is set to the authentication type."
 	},
 	"$_SERVER['PATH_INFO']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['PATH_INFO']$0"
 		],
-		"description": "PATH_INFO"
+		"description": "PATH_INFO: Contains any client-provided pathname information trailing the actual script filename but preceding the query string, if available. For instance, if the current script was accessed via the URL http://www.example.com/php/path_info.php/some/stuff?foo=bar, then $_SERVER['PATH_INFO'] would contain /some/stuff."
 	},
 	"$_SERVER['ORIG_PATH_INFO']": {
 		"prefix": "$_SERVER",
 		"body": [
 			"\\$_SERVER['ORIG_PATH_INFO']$0"
 		],
-		"description": "ORIG_PATH_INFO"
+		"description": "ORIG_PATH_INFO: Original version of 'PATH_INFO' before processed by PHP."
 	},
 	"$_SERVER['HTTP_X_FORWARDED_FOR']": {
 		"prefix": "$_SERVER",
@@ -278,6 +285,13 @@
 			"\\$_SERVER['HTTP_X_FORWARDED_FOR']$0"
 		],
 		"description": "HTTP_X_FORWARDED_FOR"
+	},
+	"$_SERVER['HTTP_X_REAL_IP']": {
+		"prefix": "$_SERVER",
+		"body": [
+			"\\$_SERVER['HTTP_X_REAL_IP']$0"
+		],
+		"description": "HTTP_X_REAL_IP"
 	},
 	"$_SERVER['HTTP_X_REQUESTED_WITH']": {
 		"prefix": "$_SERVER",
